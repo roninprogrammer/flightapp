@@ -1,4 +1,4 @@
-# Flight Tickets Deal Tracker App | Day 340/365 - Project365 (Design by Kishore)
+# Flutter Challenge Code - Flight Tickets Deal Tracker App | Day 340/365 - Project365 
 
 ## UI
 
