@@ -12,7 +12,7 @@ I do use Bloc pattern through out the app for state management. What is Bloc. Bl
 Before diving directly into the code. Let me give you a visual experience of the architecture we will be following to structure this app.
 
 <b> Bloc Pattern for Flutter </b>
-https://github.com/roninprogrammer/flightapp/blob/master/assets/img/bloc.png
+<img src="https://github.com/roninprogrammer/flightapp/blob/master/assets/img/bloc.png">
 
 Reference: https://dribbble.com/shots/5662956-Flight-Tickets-Deal-Tracker-App-Day-340-365-Project365
 
