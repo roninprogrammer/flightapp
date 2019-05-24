@@ -16,5 +16,7 @@ Let me give you a visual experience of the architecture we will be following to 
 <p align="center"><img src="https://github.com/roninprogrammer/flightapp/blob/master/assets/img/bloc.png"></p>
 
 
+P.S : <b><i>Widgets</b></i> which would be used only inside a particular screen should be placed inside that screen and not inside the common widgets folder.
+
 Reference: https://dribbble.com/shots/5662956-Flight-Tickets-Deal-Tracker-App-Day-340-365-Project365
 
