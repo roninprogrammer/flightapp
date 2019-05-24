@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "805599079442",
+    "firebase_url": "https://flightapp-75c15.firebaseio.com",
+    "project_id": "flightapp-75c15",
+    "storage_bucket": "flightapp-75c15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805599079442:android:df6df940c659c7a1",
+        "android_client_info": {
+          "package_name": "com.example.masairline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805599079442-92oep9t9qc6m81acjonts35cmgsmdq7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ5yFb71dGtRBCrescVf0OHJfKTAnO0SQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "805599079442-92oep9t9qc6m81acjonts35cmgsmdq7q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
