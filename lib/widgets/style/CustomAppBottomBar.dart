@@ -1,21 +1,22 @@
 import 'package:flutter/material.dart';
+import 'package:masairline/main.dart';
 import 'package:masairline/util/util.dart';
 
 class CustomAppBottomBar extends StatelessWidget {
   final List<BottomNavigationBarItem> bottomBarItems = [];
+  
 
   final bottomNavigationBarItemStyle =
       TextStyle(fontStyle: FontStyle.normal, color: Colors.black);
 
   CustomAppBottomBar() {
-    var appTheme;
     bottomBarItems.add(
       BottomNavigationBarItem(
         icon: Icon(
           Icons.home,
-          color: appTheme.primaryColor,
+          color: themeData.primaryColor,
         ),
-        title: Text(Util.explore, style: bottomNavigationBarItemStyle.copyWith(color: appTheme.primaryColor)),
+        title: Text(Util.explore, style: bottomNavigationBarItemStyle.copyWith(color: themeData.primaryColor)),
       ),
     );
     bottomBarItems.add(

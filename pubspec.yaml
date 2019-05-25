@@ -47,6 +47,24 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
    - assets/img/design.png
+   - assets/images/
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans-Light.ttf
+        - asset: assets/fonts/OpenSans-SemiBold.ttf
+
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/Raleway-Regular.ttf
+        - asset: assets/fonts/Raleway-SemiBold.ttf
+
+    - family: Oxygen
+      fonts:
+        - asset: assets/fonts/Oxygen-Regular.ttf
+        - asset: assets/fonts/Oxygen-Light.ttf
+        - asset: assets/fonts/Oxygen-Bold.ttf
+
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

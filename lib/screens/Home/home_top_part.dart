@@ -5,7 +5,7 @@ import 'package:masairline/bloc/home_screen_bloc.dart';
 import 'package:masairline/screens/flight/flight_list.dart';
 import 'package:masairline/widgets/style/CustomShapeClipper.dart';
 import 'package:masairline/widgets/style/ChoiceChip.dart';
-import 'package:masairline/widgets/style/themes.dart';
+
 
 import '../../main.dart';
 
@@ -19,7 +19,7 @@ class _HomeScreenTopPartState extends State<HomeScreenTopPart> {
   HomeScreenBloc homeScreenBloc;
   var selectedLocationIndex = 0;
   var isFlightSelected = true;
-  AppTheme appTheme;
+
 
   @override
   void initState() {
@@ -67,7 +67,7 @@ class _HomeScreenTopPartState extends State<HomeScreenTopPart> {
             height: 400.0,
             decoration: BoxDecoration(
               gradient: LinearGradient(
-                colors: [appTheme.firstColor, appTheme.secondColor],
+                colors: [firstColor, secondColor],
               ),
             ),
             child: Column(

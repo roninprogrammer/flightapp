@@ -5,7 +5,6 @@ import 'package:masairline/bloc/bloc_provider.dart';
 import 'package:masairline/bloc/flight_list_bloc.dart';
 import 'package:masairline/main.dart';
 import 'package:masairline/widgets/style/CustomShapeClipper.dart';
-import 'package:masairline/widgets/style/themes.dart';
 import 'package:intl/intl.dart';
 
 final Color discountBackgroundColor = Color(0xFFFFE08D);
@@ -14,7 +13,7 @@ final Color chipBackgroundColor = Color(0xFFF6F6F6);
 final formatCurrency = NumberFormat.simpleCurrency();
 const TextStyle dropDownMenuItemStyle =
     TextStyle(color: Colors.black, fontSize: 16.0);
-AppTheme appTheme;
+
 
 class InheritedFlightListing extends InheritedWidget {
 
@@ -274,7 +273,7 @@ class FlightListTopPart extends StatelessWidget {
           clipper: CustomShapeClipper(),
           child: Container(
             decoration: BoxDecoration(
-              gradient: LinearGradient(colors: [appTheme.firstColor, appTheme.secondColor]),
+              gradient: LinearGradient(colors: [firstColor, secondColor]),
             ),
             height: 160.0,
           ),
